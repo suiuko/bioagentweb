@@ -26,6 +26,14 @@ The chapter buttons select actual times in the overview. They do not simulate ro
 
 ## Evaluation wording
 
+### Growing registry versus evaluated skills
+
+The homepage displays **45+ atomic skill definitions** for the growing repository catalog. The GitHub `main` tree at `9b69394798a918caa1613e86166490368db5f29a`, checked on 2026-10-15, contains 46 files matching `skills/atomic/**/*.atomic_skill.yaml`, with 46 unique `skill_id` values. Excluding the single `deprecated` entry leaves 45 definitions. This count includes eight `planned` candidate skills and four `draft` navigation skills; it is not a claim that every definition is validated or included in the paper's experiments. The plus sign indicates ongoing expansion.
+
+Directory counts before excluding the deprecated entry: 25 laboratory-workflow definitions, five legacy liquid-transfer definitions, four perception definitions, four navigation drafts, and eight candidates. Task packages, skill flows, tool definitions, and template YAML files are not counted as atomic skills.
+
+The experimental results retain the paper's exact **25 evaluated atomic skills** and the original trial denominators. These are an evaluation subset, not the repository-wide catalog count.
+
 Manuscript Tables II–III distinguish:
 
 - 25 distinct atomic skills, 50 trials per skill with recovery disabled; success rates 84–100%, with 17 skills at 50/50.
