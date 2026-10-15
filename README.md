@@ -24,6 +24,10 @@ The October 2026 refresh follows the author's `Bioagent_RAL.pdf` manuscript, the
 
 The chapter buttons select actual times in the overview. They do not simulate robot progress or success. Gallery cards link to Task 1 at 00:44 and Task 2 at 03:44.
 
+## Public skill-contract example
+
+The skill section presents `assets/atomic-skill-contract.example.yaml`, a compact schema excerpt adapted from BioAgent's `skills/templates/atomic_skill.template.yaml` at the source commit above. An aspiration example illustrates identity and bindings, preconditions, safety, execution, observable outcomes, monitoring, confirmed world effects, failure handling, and validation. The downloadable YAML and displayed code contain the same text. This is a teaching excerpt, not a complete deployable configuration: it stays at `needs_validation`, has no bound checkpoint, and contains no claimed validation successes.
+
 ## Evaluation wording
 
 ### Growing registry versus evaluated skills
@@ -43,4 +47,4 @@ Manuscript Tables II–III distinguish:
 
 Analyzer, Planner, and Monitor describe functional responsibilities. They do not assert separate deployed services. Human teaching and corrective interventions belong to learning; policy updates happen offline and candidates require validation before reuse. The page does not claim measured teaching-cost savings, unrestricted generalization, or online policy training during evaluation.
 
-The research code repository remains restricted. Links point to its existing address and to this public website repository; no access settings are changed.
+Project Resources shows **Code Repository — Coming soon** without a code-repository link. The Website Source entry is removed. The navigation's code entry points to Project Resources. Repository access settings are unchanged.

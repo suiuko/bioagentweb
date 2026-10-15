@@ -1,0 +1,42 @@
+# Compact schema excerpt, illustrated with an aspiration skill.
+# Supply the full configuration and validation evidence before execution.
+version: 1
+type: atomic_skill
+skill_id: aspirate_from_tube
+kind: pi05_policy
+status: needs_validation
+
+info:
+  summary: Aspirate the requested liquid from an open tube.
+slots:
+  targets:
+    - {name: tube, object_type: centrifuge_tube, required: true}
+preconditions:
+  all:
+    - {predicate: pipette_has_tip}
+    - {predicate: centrifuge_tube_open}
+safety:
+  forbidden_when: [liquid_spill_detected]
+  stop_triggers: [collision_risk]
+executor:
+  type: monte_pi05
+  active_side: left
+  checkpoint_path: null # Bind a reviewed checkpoint.
+expected_end_state:
+  must_hold: [pipette_tip_contains_requested_liquid]
+  preferred_views: [head_rgb, right_rgb]
+monitor:
+  success_predicate: pipette_tip_contains_requested_liquid
+  uncertain_policy: stop
+effects:
+  world_patch:
+    relations:
+      - {subject: requested_liquid, relation: contained_in, object: pipette_tip}
+failure_handling:
+  max_retries: 0
+  on_failure: human
+training:
+  validation:
+    status: unvalidated
+    success_trials: 0
+    failure_trials: 0
