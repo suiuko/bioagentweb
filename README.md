@@ -22,7 +22,7 @@ The October 2026 refresh follows the author's `Bioagent_RAL.pdf` manuscript, the
 - **Captions:** the author's v4 English subtitles, converted from SRT to WebVTT; teaching captions are shifted to the clip's local timeline. English narration in the source film is synthesized with the Kokoro `af_heart` voice.
 - **Posters:** frames extracted from the supplied videos. The teaching footage retains the source film's face mosaic.
 
-The chapter buttons select actual times in the overview. They do not simulate robot progress or success. Gallery cards link to Task 1 at 00:44 and Task 2 at 03:44.
+The chapter buttons select actual times in the overview. They do not simulate robot progress or success. Section 08 gallery cards open the author-supplied complete task recordings on YouTube in a new tab: Task 1 at https://www.youtube.com/watch?v=iMFg9qOyWTs and Task 2 at https://www.youtube.com/watch?v=SQ2gScMVlKw. Gallery links are independent of the overview player’s chapter controls.
 
 ## Public skill-contract example
 

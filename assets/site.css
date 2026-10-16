@@ -95,7 +95,7 @@ td span { color: #8b99af; }
 td strong { color: #8ee9c4; font-weight: 500; }
 .workflow-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
 .workflow-card { overflow: hidden; border: 1px solid #ffffff1c; border-radius: 18px; background: #ffffff06; }
-.workflow-preview { position: relative; padding: 0; display: block; width: 100%; border: 0; background: #080b12; text-align: left; }
+.workflow-preview { position: relative; padding: 0; display: block; width: 100%; border: 0; background: #080b12; text-align: left; text-decoration: none; }
 .workflow-preview img { width: 100%; height: auto; display: block; }
 .play-label { position: absolute; bottom: 18px; left: 18px; padding: 9px 15px; border: 1px solid #ffffff55; border-radius: 9px; background: #05070add; color: #e8f4ff; font-size: 13px; }
 .workflow-preview:hover .play-label { border-color: #67e8f9; color: #67e8f9; }
