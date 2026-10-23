@@ -16,7 +16,7 @@ Open <http://127.0.0.1:8765>. The preview server supports byte-range requests so
 
 The October 2026 refresh follows the author's `Bioagent_RAL.pdf` manuscript, the BioAgent source at commit `9b69394798a918caa1613e86166490368db5f29a`, and the reviewed v4 five-minute film. An earlier Markdown manuscript in the code repository describes three protocols and contains unfinished results; that draft is not the source for this page's task scope or numbers.
 
-- **Overview:** `BioAgent_submission_v4_5min_1080p.mp4` from the author's `视频制作/bioagent_video/output_v4/`, copied unchanged to `assets/bioagent-overview.mp4` (300 seconds, 1920 × 1080, H.264/AAC).
+- **Overview:** the author-supplied `/Volumes/DIPAN1T/下载/BioAgent_submission_v4_5min_1080p.mp4`, resynchronized on 2026-10-23 to `assets/bioagent-overview.mp4` (300 seconds, 1920 × 1080, H.264/AAC). Its SHA-256 is `78a0fa48eb9edb8327595acd43ce8c111cecdc7c52e0bdf39d6d4cf651b0b62f`, identical to the previously published v4 film. Playback, fallback, and download URLs include the content version `?v=78a0fa48eb9e` so clients request this specific release.
 - **Teaching sequence:** seconds 200–224 of that overview, showing the capability gap, targeted demonstration, offline update, and independent aspiration. It is an edited demonstration of the lifecycle, not a claim that training finishes within 24 seconds.
 - **Background:** source seconds 125–185 of `demo_task_1.mp4`, accelerated 5×, resized to 720p, and exported without audio.
 - **Captions:** the author's v4 English subtitles, converted from SRT to WebVTT; teaching captions are shifted to the clip's local timeline. English narration in the source film is synthesized with the Kokoro `af_heart` voice.
