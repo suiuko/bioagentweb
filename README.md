@@ -38,12 +38,14 @@ Directory counts before excluding the deprecated entry: 25 laboratory-workflow d
 
 The experimental results retain the paper's exact **25 evaluated atomic skills** and the original trial denominators. These are an evaluation subset, not the repository-wide catalog count.
 
+Project descriptions frame BioAgent around a growing protocol repertoire and skill reuse across different protocols. The workflow gallery presents the current pretreatment and washing examples; it does not define the full scope of the system. Evaluation wording names those measured workflows explicitly, without implying that additional protocols have already been evaluated.
+
 Manuscript Tables II–III distinguish:
 
 - 25 distinct atomic skills, 50 trials per skill with recovery disabled; success rates 84–100%, with 17 skills at 50/50.
 - Task 1: 20 invocations of 20 distinct skills; 27/50 (54%) without recovery and 33/50 (66%) with recovery.
 - Task 2: 31 invocations of 24 distinct skills; 20/50 (40%) without recovery and 29/50 (58%) with recovery.
-- The two protocols share 19 skills. Complete-task evaluations have 50 runs per task and recovery condition; all formal evaluations prohibit human intervention.
+- The evaluated pretreatment and washing protocols share 19 skills. Complete-task evaluations have 50 runs per task and recovery condition; all formal evaluations prohibit human intervention.
 
 Analyzer, Planner, and Monitor describe functional responsibilities. They do not assert separate deployed services. Human teaching and corrective interventions belong to learning; policy updates happen offline and candidates require validation before reuse. The page does not claim measured teaching-cost savings, unrestricted generalization, or online policy training during evaluation.
 
